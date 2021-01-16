@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+header{
+    text-align: center;
+    padding: 25px;
+    color: grey;
+}
+
+.main{
+    height: 100%;
+    margin: 0%;
+    padding: 20px, 30px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    color: darkgray;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 35px 50px;
+}
+
+.card-head{
+    display: block;
+}
+
+.card-pass{
+    display: block;
+}
+
+.card-button{
+    display: block;
+    text-align: center;
+}
+
+.btn{
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px 25px;
+}
