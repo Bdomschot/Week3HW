@@ -4,7 +4,29 @@ const lowerCaseOptions = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n
 const numberOptions = ["0","1","2","3","4","5","6","7","8","9"];
 const specialCharacterOptions = ["!","#","$","%","&","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","]","^","_","`","{","|","}","~"];
 
+function userInputLength() {
+  let length;
+  let lengthValidate = false;
 
+  while ( lengthValidate = false){
+    var lengthInput = prompt("Please enter a password length between 8 and 128 characters.");
+
+    if ( lengthInput === null ) return;  
+    
+    length = parseInt ( lengthInput );
+
+    if ( length.isInteger() && (length >= 8 && length <= 128)) {
+      lengthValidate = true;
+      return;
+    }
+    else {
+      alert ( "Invalid entry please try again.")
+      return;
+    }
+  }
+
+  return length;
+}
 
 
 
